@@ -14,15 +14,15 @@ This command will read the package.json file and install the necessary dependenc
 
 3)Run Node.js Application:
 
-Once the dependencies are installed,start your Node.js application by running the following command:
+Once the dependencies are installed,start Node.js application by running the following command:
 node app.js
 This command will execute app.js script, and application will start.Message indicating that the server is running, as specified in the terminal:
 Server is running on port 8080
-Node.js application is now running and listening on port 8080 on your local machine.
+Node.js application is now running and listening on port 8080 on local machine.
 
-4)Access Your Node.js Application:
+4)Access Node.js Application:
 
-Open  web browser and navigate to http://localhost:8080 to access your Node.js application. If application exposes an API, Use tools like curl or Postman to make API requests.
+Open  web browser and navigate to http://localhost:8080 to access  Node.js application. If application exposes an API, Use tools like curl or Postman to make API requests.
 
 1.Build the Docker Image
 Navigate to the project's root directory using terminal.
