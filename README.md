@@ -24,23 +24,24 @@ Node.js application is now running and listening on port 8080 on local machine.
 
 Open  web browser and navigate to http://localhost:8080 to access  Node.js application. If application exposes an API, Use tools like curl or Postman to make API requests.
 
-1.Build the Docker Image
+RUNNING DOCKER
+
+1)Build the Docker Image
 Navigate to the project's root directory using terminal.
 
 cd receipt-processor
 
-2.Build a Docker image for the application by executing the following command:
+2)Build a Docker image for the application by executing the following command:
 
 docker build -t receipt-api .
 
 This command creates a Docker image with the name "receipt-api."
 
-3. Run the Docker Container
+3) Run the Docker Container
    
 Start a Docker container from the image built. Ensure to map port 8080 from the container to the host.
 
 docker run -p 8080:8080 receipt-api
 The application is now running inside a Docker container and is accessible at http://localhost:8080.
-
-4. Access the Application
+4) Access the Application
 Open a web browser and navigate to http://localhost:8080 to use the application.
